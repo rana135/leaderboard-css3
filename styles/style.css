@@ -1,0 +1,71 @@
+/* players start */
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Open+Sans:wght@500&family=Vujahday+Script&display=swap');
+body{
+    font-family: 'Luxurious Roman', cursive;
+    background-color: aliceblue;
+}
+.players{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 30px; 
+   
+}
+.player img{
+    width:55px;
+    height:55px;
+}
+.player{
+    display: flex;
+    align-items: center;
+   
+}
+.container{
+    background-color: white;
+   width:800px;
+   padding:30px;
+    
+ 
+}
+h3{
+    margin-left:16px;
+}
+main{
+    display:flex;
+    justify-content: center; 
+    
+}
+.section-title{
+    color:slateblue;
+    font-size:24px;
+    margin-top: 3px;
+}
+hr{
+    border:1px solid slategray;
+    margin-top:30px;
+}
+/* .top-players{
+    margin-bottom: 30px;
+} */
+.blog{
+    display:flex;
+}
+.blog img{
+    height:117px;
+    width:177px;
+}
+.blog-info{
+    margin-left:16px;
+}
+.blog-title{
+    font-size: 20px;
+}
+.blog-author{
+    color:gray;
+    font-size:16px;
+}
+.blog-author a{
+    text-decoration: none;
+    font-size:16px;
+    color:slateblue;
+    font-weight: 700px;
+}
