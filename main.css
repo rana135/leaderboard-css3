@@ -1,0 +1,21 @@
+nav>ul{
+     display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 20px;
+    
+}
+nav li a{
+    text-decoration: none;
+    color:red;
+}
+.dropdown{
+    display: none;
+   position:absolute;
+   background-color:green;
+   
+}
+nav>ul>li:hover.dropdown{
+       display:block;
+}
